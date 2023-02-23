@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    display: grid;
+    background: #FFFFFF;
+    font-family: 'roboto', sans-serif;
+    min-height: 100vh;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+main {
+    display: flex;
+   width: 82.1rem;
+   height: 33.6rem;
+   justify-content: center;
+   
+   align-content: center;
+}
+
+.container {
+    display: flex;
+    width: 32.1rem;
+    height: 21.3rem;
+    flex-direction: column;
+}
+
+.timer {
+    display: flex;
+    margin-bottom: 4.8rem;
+}
+
+.controls {
+    display: flex;
+    gap: 4rem;
+}
+
+.cardSounds {
+    width: 30.8rem;
+    height: 33.6rem;
+    margin-left: 19rem;
+}
+
+
+
+span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12.6rem;
+    line-height: 14.8rem;
+}
+
+button {
+    border: none;
+    background-color: #FFFFFF;
+    
+}
+
+button :hover {
+    cursor: pointer;
+    
+}
+
+.forest {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+.fire {
+    margin-right: 2rem;
+}
+
+
+.hide svg path {
+    fill: #02799D;
+}
+
+.hide svg path + path {
+    fill: white;
+}
